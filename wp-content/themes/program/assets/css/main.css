@@ -1,0 +1,704 @@
+/*   
+Theme Name: University Bound Program Template
+Description: This is a Template For programs
+Author: 
+version:1
+*/
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#404041;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:14px; 
+	line-height:18px;
+	margin:0px;
+	padding:0px;	
+}
+
+.body-background{
+	background-color:#EFEFF0; 
+	overflow:hidden;
+}
+
+
+.form-container-inner h1{
+	color:#FFF;
+	font-family: 'PT Sans', sans-serif;
+	font-size:28px;
+	margin:0;
+	padding:0;
+}
+
+/* TOP NAVIGATION STYLES */
+
+
+.nav-top-wrapper{
+	background:url(../images/main/bg-nav-top.png) repeat-x; 
+	height:35px;	
+}
+
+.nav-top-inner, .slider-wrapper, .nav-main-wrapper, .footer-inside{
+	margin:0 auto;
+	width:960px;
+}
+
+.nav-top-links{
+	float:left; 
+	font-size:11px; 
+	padding-top:10px; 
+	text-align:right;  
+	width:600px;
+}
+
+.nav-top-links a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.nav-top-links a:hover{
+	color:#F28126;
+	text-decoration:none;
+}
+
+.nav-top-social{
+	background:#EFEFF0;
+	float:left;  
+	height:35px; 
+	width:360px; 	
+}
+
+
+/* LOGO CONTAINER STYLES */
+
+
+.logo-wrapper{
+	margin:0 auto;
+	padding:15px 0;
+	width:960px;
+	overflow:hidden;	
+}
+
+.logo-wrapper .logo{	
+	float:left; 
+	text-align:left;
+	width:325px; 	
+}
+
+.logo-wrapper .tagline{	
+	float:left; 
+	font-family: 'PT Sans', sans-serif;
+	font-size:18px;
+	font-weight:bold; 
+	padding-top:40px; 
+	width:335px; 	
+}
+
+.logo-wrapper .search{
+	float:left;
+	width:300px; 	
+}
+
+.logo-wrapper .search .connect{
+	color:#F28126;
+	clear:both; 
+	font-family: 'PT Sans', sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	padding:10px 0 5px 0; 
+	text-align:center; 
+	width:250px; 
+}
+
+.logo-wrapper .search .connect a{
+	color:#F28126;
+	text-decoration:none;
+}
+
+.logo-wrapper .search .connect a:hover{
+	color:#161C49;
+	text-decoration:none;
+}
+
+
+/* BREADCRUMBS */
+#crumbs a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #cccccc;
+}
+
+#crumbs{
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 30px;
+}
+
+
+.u-title{
+	height: 60px;
+	padding: 30px 0 0 90px;
+	background: url(../images/search-img.png) no-repeat;
+	position: absolute;
+	top: 20px;
+
+	
+}
+
+.u-title h1{
+	font-size: 40px !important;
+}
+
+
+/*Search by degree link styles*/
+#search-degree-link a{
+	font-weight: bold;
+	float: left;
+	margin-right: 100px;
+	color: #181d49;
+	margin-bottom: 15px;
+	min-width: 160px;
+	font-size: 11px;
+}
+/* MAIN NAVIGATION STYLES */
+
+
+.nav-main-wrapper #nav-menu {
+	background:url(../images/main/bg-nav-main.png) repeat-x;
+	border-bottom-color:#000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-top-color:#000;
+	border-top-style:solid;
+	border-top-width:1px;
+	height:45px;
+	list-style:none;
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	z-index:2;
+}
+
+.nav-main-wrapper #nav-menu li{
+	color:#FFF;
+	float:left;
+	font-weight:bold;
+	font-size: 14px;	
+	position:relative;
+	text-align:center;	
+}
+
+.nav-main-wrapper #nav-menu li:hover{
+	background:url(../images/main/bg-nav-main-hover.png) repeat-x;	
+	color:#F28126;
+	cursor: pointer;
+}
+
+.nav-main-wrapper #nav-menu li.current-menu-item{
+	background:url(../images/main/bg-nav-main-hover.png) repeat-x;	
+	color:#F28126;	
+}
+
+.nav-main-wrapper #nav-menu li.drop{
+	border-right:1px solid #000;	
+}
+
+.nav-main-wrapper #nav-menu li a{
+	color:#FFF;
+	font-size:14px;
+	text-decoration:none;
+	padding:14px 26px;
+	display: inline-block;
+}
+
+.nav-main-wrapper #nav-menu li a:hover{
+	font-size:14px;
+	color:#F28126;	
+}
+
+.nav-main-wrapper #nav-menu li.current-menu-item a{
+	font-size:14px;
+	color:#F28126;	
+}
+
+
+/* SLIDER CONTAINER STYLES */
+
+
+.slider-container{
+	background:#FFF;	 
+	height:350px; 
+	width:960px;
+	position:relative;	
+}
+
+
+/*Carousel styles*/
+.image_carousel {
+	padding: 15px 0 15px 40px;
+	position: relative;
+}
+#foo2 img {
+	background-color: white;
+	padding:0 9px 0 0 ;
+	display: block;
+	float: left;
+}
+.pagination {
+	text-align: center;
+	margin-top: 10px;
+}
+.pagination a {
+	background: url(../images/main/pagination.png) 0 0 no-repeat transparent !important;
+	width: 12px;
+	height: 12px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background-position: 0 -12px !important;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+
+/* FORM CONTAINER STYLES */
+
+
+.form-container{
+	background:#F28126;	  
+	height:350px; 
+	width:300px;
+	position:fixed;	
+	margin-left:660px;
+}
+
+.form-container-inner{
+	overflow:hidden;
+	padding:30px 15px; 
+}
+
+.form-menu { 
+	background:url(../images/main/bg-form.png) repeat-x; 
+	clear:both; 
+	height:40px; 
+	margin-top:25px;
+	width:100%; 
+}
+
+.form-menu li { 
+	display:inline; 
+}
+
+.form-menu li{
+	float:left;
+	font-weight:bold;
+	list-style:none;
+	padding:12px 26px;
+	position:relative;
+	text-align:center;	
+}
+
+.form-menu li:hover{
+	background:url(../images/main/bg-form-hover.png) repeat-x;	
+}
+
+.form-menu li.active{
+	background:url(../images/main/bg-form-hover.png) repeat-x;	
+}
+
+.form-menu a{
+	color:#FFF;
+	font-size:14px;
+	text-decoration:none;	
+}
+
+.form-content { 
+	float:left; 
+	clear:both; 
+	width:100%; 
+}
+
+.form-field{
+	padding-top:20px;	
+}
+
+.form-field select{
+	height:25px;
+	width:100%; 
+}
+
+.button-field{
+	padding-top:30px;	
+}
+
+.button-field .search-button{
+	background:#161C49;
+	border-radius: 8px;
+	color:#FFF;
+	font-family: 'PT Sans', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	-moz-border-radius: 8px;
+	padding:12px 0;
+	text-decoration:none;
+	width:200px;	
+}
+
+.button-field .search-button:hover{
+	background:#000;
+}
+
+
+/* MAIN CONTENT STYLES */
+
+
+.content-main-wrapper{
+	background:url(../images/main/bg-content.png) repeat-y; 
+	margin:0 auto;
+	overflow:hidden;
+	width:1020px;
+}
+
+.content-main-left{
+	width:725px;	
+}
+
+.content-main-left-inside{
+	overflow:hidden;
+	padding:25px 50px; 
+}
+
+.callout-container{
+	padding-bottom:55px;	
+}
+
+.callout-find{
+	float:left;
+	padding:10px 0 0 10px; 
+	width:115px;	
+}
+
+.callout-compare{
+	float:left; 
+	padding:10px 0 0 10px; 
+	width:190px;
+}
+
+.callout-connect{
+	float:left; 
+	padding:10px 0 0 10px; 
+	width:135px;
+}
+
+.popular-menu { 
+	clear:both; 
+	height:40px; 
+	margin-top:25px;
+	width:100%; 
+}
+
+.popular-menu li { 
+	display:inline; 
+	height:40px;
+}
+
+.popular-menu li{
+	float:left;
+	font-weight:bold;
+	list-style:none;
+	padding:0px 15px;
+	position:relative;
+	text-align:center;	
+}
+
+.popular-menu li:hover{
+	background:url(../images/main/bg-popular.png) no-repeat bottom center;	
+}
+
+.popular-menu li.active{
+	background:url(../images/main/bg-popular.png) no-repeat bottom center;	
+}
+
+.popular-menu a{
+	color:#000;
+	font-size:13px;
+	text-decoration:none;	
+}
+
+.popular-menu a:hover{
+	color:#666;
+	font-size:13px;
+	text-decoration:none;	
+}			
+
+.popular-content{ 
+	border:1px solid #909295;
+	clear:both; 
+	float:left; 
+	margin-bottom:25px;
+	width:100%; 	
+}
+
+.popular-content-inside{ 
+	overflow:hidden;
+	padding:15px 15px 15px 0px;	
+}
+
+.popular-column{ 
+	float:left; 
+	width:50%;
+}
+
+.popular-column a{ 
+	color:#161C49;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+
+.popular-column a:hover{ 
+	color:#F28126;
+	font-weight:bold;
+	text-decoration:underline;
+	
+}
+
+.popular-column .image-callout{
+	background:#000; 
+	height:190px; 
+	width:310px;	
+}
+
+.popular-content-inside table{ 
+	width:100%;
+	padding-right:10px;	 
+}
+
+.popular-content-inside td{ 
+	padding:10px;
+	float:left;
+}
+
+.popular-content-inside .even{ 
+	background:#EFEFF0;
+}
+
+.section-title-container{
+	background:url(../images/main/border-callout.png) repeat-x bottom;	
+	clear:both;
+	height:40px;		
+}
+
+.section-tagline-container{
+	background:url(../images/main/border-callout.png) repeat-x bottom;	
+	overflow:hidden;		
+}
+
+.section-content-container{
+	overflow:hidden;
+	padding:10px; 
+}	
+
+.section-title-schools{
+	float:left;
+	padding:5px 0 0 10px; 	
+}
+
+.section-container-full{
+	clear:both; 
+	overflow:hidden;
+	width:625px; 
+}
+
+.section-container-full-inside{
+	overflow:hidden;
+	padding:15px 15px 35px 15px; 
+}
+
+.student-tools{
+	background-color:#CCC; 
+	float:left;
+	height:160px; 	 
+	list-style:none; 	
+	margin:0 5px;
+	width:185px; 
+}
+
+.section-container-left{	
+	float:left;
+	margin-right:25px;
+	overflow:hidden;
+	padding-bottom:35px;
+	width:300px; 	
+}
+
+.section-container-right{
+	float:left;
+	overflow:hidden;
+	padding-bottom:35px;
+	width:300px; 	
+}
+
+
+/* FOOTER STYLES */
+
+
+.footer-wrapper{
+	background:url(../images/main/bg-footer.png) repeat-x; 
+	height:180px;	
+}
+
+.footer-inner{
+	margin:0 auto;
+	padding-top:25px;
+	width:960px;	
+}
+
+.footer-left, .footer-right{
+	float:left; 
+	padding-bottom:15px;
+	width:350px; 		
+}
+
+.footer-middle{
+	float:left; 
+	width: 260px;	
+}
+
+.footer-logo{
+	padding-left:15px;	
+}
+
+.footer-social{
+	padding-top:15px; 	
+}
+
+.footer-tagline{
+	color:#FFF;
+	padding:25px 15px 0px 0px; 
+	text-align:right;
+	font-size: 14px;
+}
+
+.footer-nav{
+	background:url(../images/main/bg-nav-main-hover.png) repeat-x;
+	border-radius: 10px;
+	clear:both;	
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	-moz-border-radius: 10px;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center;
+	width:960px;	
+}
+
+.footer-nav li{
+	float:left; 
+	font-size:14px;
+	list-style:none; 
+	padding:10px 24px; 
+}
+
+.footer-nav li a{
+	color:#FFF;
+	text-decoration:none; 
+}
+
+.footer-nav li a:hover{
+	color:#F28126;
+	text-decoration:none; 
+}
+
+.footer-nav li.current-menu-item a{
+	color:#F28126;
+	text-decoration:none; 
+}
+
+.footer-copyright{
+	color:#FFF;
+	font-size:11px;
+	padding-top:15px;  	
+}
+
+.footer-copyright a{
+	color:#FFF;
+	text-decoration:none; 
+}
+
+.footer-copyright a:hover{
+	color:#FFF;
+	text-decoration:underline; 
+}
+
+
+/* SLIDER STYLES */
+
+.container {
+	width:600px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+}
+
+.slides {
+	/*position:absolute;*/
+	z-index:100;
+}
+
+.slides_container {
+	width:600px;
+	height:100px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.slides .slide {
+	width:600px;
+	height:100px;
+	display:block;
+}
+
+.slides .slide-schools{
+	float:left; 
+	width:185px; 
+	height:90px; 
+	background:#CCC; 
+	margin:0 5px;	
+}
+
+/*.pagination {
+	width:100px;
+	z-index:500;
+	position: relative;
+	left:275px;
+	top: 0;
+	float: none;
+}*/
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;	
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/main/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}

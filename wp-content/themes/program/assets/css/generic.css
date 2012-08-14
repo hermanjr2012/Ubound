@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{
+	border:0px;	
+}
+
+.button{
+	background:#161C49;
+	border-radius: 6px;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:10px;
+	-moz-border-radius: 6px;
+	padding:5px 0;
+	text-decoration:none;
+	text-align:center;
+	width:100px;	
+}	
+
+.button:hover{
+	background:#F28126;
+	border-radius: 6px;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:10px;
+	-moz-border-radius: 6px;
+	padding:5px 0;
+	text-decoration:none;
+	text-align:center;
+	width:100px;	
+}
+
+h1{
+	color:#FFF;
+	font-family: 'PT Sans', sans-serif !important;
+	font-size:28px !important;
+	margin:0;
+	padding:0;	
+}
+
+h2{
+	color:#FFF;
+	font-family: 'PT Sans', sans-serif;
+	font-size:22px;
+	margin:0;
+	padding:0;	
+}
+
+.orange{
+	color:#F28126;	
+}
+
+.purple{
+	color:#161C49;	
+}
+
+.black{
+	color:#000;	
+}
+
+.pr{
+	padding-right:10px;	
+}
+
+.pl{
+	padding-left:10px;	
+}
+
+.pt{
+	padding-top:10px;	
+}
+
+.pb{
+	padding-bottom:10px;	
+}
+
+.fl{
+	float:left;
+}
+
+ul{
+	padding:0;
+	margin:0;	
+}
+
+.ntd{
+	text-decoration:none;	
+}
+
+.bi{
+	font-weight:bold;
+	font-style:italic;
+}	

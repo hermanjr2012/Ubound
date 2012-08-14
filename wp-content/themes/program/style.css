@@ -1,0 +1,448 @@
+/*   
+Theme Name: University Bound Program Template
+Description: This is a Template For programs
+Author: 
+version:1
+*/
+
+body{
+    font-family: 'Arial','Helvetica','sans-serif';
+    line-height: 1.5;
+}
+
+#wrapper{
+    width:960px;
+    margin:0 auto;
+}
+
+/*hearder styles*/
+
+#header{
+    height:126px;
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#header-wrap{
+    width:1012px;
+    margin:0 auto;
+    background:url(assets/images/main-bg.jpg) repeat-y;
+}
+
+#head-divider{
+    width:100%;
+    height:12px;
+    display:block;
+}
+
+#headline{
+    float:left;
+    padding-top:57px;
+    padding-left: 25px;
+    
+}
+
+#headline h1{
+    margin:0;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    font-size:1.63em;
+    color:#000000;
+}
+
+#logo{
+    float:right;
+    padding-top:30px;
+    padding-right: 25px;
+}
+
+/***********************/
+
+/*main body styles*/
+
+#main-wrap{
+    width:1012px;
+    margin:0 auto;
+    background:url(assets/images/main-bg.jpg) repeat-y;
+    margin-bottom:-20px;
+}
+
+#main{
+    width:960px;
+    margin:0 auto;
+}
+
+#content-section{
+	background:url(assets/images/border-callout.png) repeat-x bottom;
+	padding-bottom:5px;	
+	overflow:hidden;	
+}
+
+#content-section h2{
+    font-size: 1.5em;
+    line-height: 1.77;
+    margin: 0.44em 0 0.44em;
+}
+
+#content-section p{
+	font-weight:bold;
+	font-style:italic;
+        line-height:1.5em;
+        font-size:0.85em;
+}
+
+#posts-lists{
+    width:615px;
+    margin:43px 0 21px 25px;
+}
+
+
+.padding-bottom{
+	padding-bottom:10px;
+        font-size:13px;
+}
+/* Main Accordian Styles*/
+
+.st-accordion ul li{
+	height:auto;
+}
+
+.st-accordion{
+    width:100%;
+    min-width:270px;
+    margin: 0 auto;
+}
+
+.st-accordion ul{
+    padding:0;
+	margin:0;
+}
+
+.st-accordion ul li{
+    height: 100px;
+    border-bottom: 1px solid #c7deef;
+    border-top:1px solid #fff;
+    overflow: hidden;
+}
+
+.st-accordion ul li:first-child{
+    border-top:none;
+}
+
+.st-accordion ul li > a{
+    color:#9D1D20;	
+	font-family: 'PT Sans', sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 22px;
+    display: block;
+	position: relative;
+    line-height: 100px;
+	outline:none;
+    -webkit-transition:  color 0.2s ease-in-out;
+	-moz-transition:  color 0.2s ease-in-out;
+	-o-transition:  color 0.2s ease-in-out;
+	-ms-transition:  color 0.2s ease-in-out;
+	transition:  color 0.2s ease-in-out;
+}
+
+.st-accordion ul li > a span{
+	background: transparent url(assets/images/accordion/down.png) no-repeat center center;
+	text-indent:-9000px;
+	width: 26px;
+	height: 14px;
+	position: absolute;
+	top: 50%;
+	right: -26px;
+	margin-top: -7px;
+	opacity:0;
+	-webkit-transition:  all 0.2s ease-in-out;
+	-moz-transition:  all 0.2s ease-in-out;
+	-o-transition:  all 0.2s ease-in-out;
+	-ms-transition:  all 0.2s ease-in-out;
+	transition:  all 0.2s ease-in-out;
+}
+
+.st-accordion ul li > a:hover{
+    color:#000 !important;
+}
+
+.st-accordion ul li > a:hover span{
+	opacity:1;
+	right: 10px;
+}
+
+.st-accordion ul li.st-open > a{
+    color:#9D1D20;	
+}
+
+.st-accordion ul li.st-open > a span{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+    transform:rotate(180deg);
+	right:10px;
+	opacity:1;
+}
+
+/* ACCORDIAN STYLES */
+
+.st-content{
+    overflow:hidden;
+	padding: 0px 0px 30px 0px;	
+}
+
+.st-content .section-left-main{
+	float:left; 
+	width:175px;	
+}
+
+.st-content .section-right-main{
+	float:left; 
+	width:400px;	
+}
+
+.st-content .section-right-main p{
+	font-size:12px; 
+	line-height:18px;
+}
+
+.st-content .image-shadow{
+	background:url(assets/images/accordion/shadow-165.png) bottom no-repeat;	
+	height:142px; 
+	width:165px; 		
+}
+
+.st-content .image-background{
+	background:#000;	
+	height:125px; 
+	width:165px; 
+}
+
+@media screen and (max-width: 320px){
+	
+.st-accordion ul li > a{
+	font-size:36px;
+}
+
+}
+
+/*widgets styles*/
+
+#banner-widget{
+    width:960px;
+    height:400px;
+    background:#000000;
+}
+
+
+#top-widget{
+    position:relative;
+}
+
+#widget-forms-wrap{
+    width:290px;
+    position:absolute;
+    right: 10px;
+    top: 40px;
+    z-index:10;
+}
+
+#widget-forms{
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #BABCBE 100%);    
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #BABCBE 100%);    
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #BABCBE 100%);    
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #BABCBE));    
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #BABCBE 100%);    
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #BABCBE 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#FFFFFF', endColorstr='#BABCBE'); /* for IE */
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#BABCBE'); /* for IE */
+    /*-webkit-border-radius:5px;
+    border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px;*/
+    -moz-box-shadow:    0 10px 10px #000;
+    -webkit-box-shadow: 0 10px 10px #000;
+    box-shadow:         0 10px 10px #000;
+    width:206px;
+    margin:0 auto;
+    padding:30px 25px 0 20px;
+    
+}
+
+.form-widget-title{
+    color:#FFFFFF;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    font-size:1.5em;
+    text-align:center;
+}
+
+#widget-forms h2{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222222;
+    
+}
+
+.custom-content{
+    float:left;
+    width:336px;
+    font-size:14px;
+    font-family: 'Arial', 'Helvetica', 'sans-serif'; 
+}
+
+#top-form{
+    height:54px !important;
+    margin-bottom: -5px !important;
+    padding-top: 20px;
+}
+
+.custom-content-img{
+    float:right;
+}
+
+.custom-content-wrap{
+    margin-top:37px;
+    margin-bottom:20px;
+    padding-bottom:36px;
+    border-bottom:#b7b9bb solid 1px;
+}
+
+.custom-content-title{
+    font-family: 'Arial', 'Helvetica', 'sans-serif'; 
+    font-size:1.2em;
+}
+
+.school-form-widget input,.school-form-widget select, .school-form-widget textarea{
+    width:100%;
+    margin-top:5px;
+}
+
+.school-form-widget select{
+    width:102%;
+}
+
+.school-form-widget, .school-form-widget{
+    font-family: 'Arial', 'Helvetica', 'sans-serif'; 
+}
+.school-form-widget p{
+    margin-bottom:10px;
+    font-size:0.7em;
+    font-weight:bold;
+}
+
+#formstep1next, #formstep2submit {
+    width:162px;
+    height:39px;
+    display:block;
+    margin:20px auto;
+}
+
+#formstep2submit{
+    padding:0;
+    border:0;
+}
+
+.wpcf7-response-output{
+    border:0 !important;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    margin:0 !important;
+    padding:0 0 20px 0 !important;
+}
+
+.ajax-loader{
+    margin:0!important;
+    position:relative;
+    bottom:51px;
+}
+
+.fancybox-inner p{
+    margin-bottom:10px;
+    font-size:.7em;
+}
+
+.fancybox-inner h3{
+    margin-bottom:10px;
+    font-size:1em;
+}
+
+.fancybox-inner h4{
+    font-size:.8em;
+    margin-bottom:5px;
+}
+
+.fancybox-inner{
+    padding-right:20px !important;
+}
+
+.fancybox-inner ul{
+    list-style:disc;
+    font-size:.7em;
+    margin-left:40px;
+    margin-bottom:10px;
+}
+.fancybox-inner ul li{
+    margin-bottom:5px;
+}
+/*footer styles*/
+
+#footer{
+    height:102px;
+    width:100%;
+    background:#7f1518;
+    text-align:right;
+}
+
+#footer-wrap{
+    width:937px;
+    height:102px;
+    margin:0 auto;
+    padding:0 40px;
+}
+
+#center-footer{
+    font-family: 'Arial', 'Helvetica', 'sans-serif'; 
+    color:#FFFFFF;
+    padding-top:30px;
+}
+
+#footer-nav li{
+    float:right;
+    padding:0 5px;
+    color:#FFFFFF;
+}
+
+#footer-nav li a{
+    color:#FFFFFF;
+    font-size:13px;
+}
+
+#footer-nav li:first-child{
+    display:none;
+}
+
+
+#footer-nav li:nth-child(odd){
+    height: 14px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+.disclaimer{
+    color: #FFFFFF;
+    float: left;
+    font-size: 13px;
+    text-align: left;
+    width: 370px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 14px;
+}

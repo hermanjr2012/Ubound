@@ -1,0 +1,25 @@
+body{
+    background:url(../images/hospitality/body-bg.jpg) repeat-x #FFFFFF !important;
+}
+#top-form{
+    background:url(../images/hospitality/form-banner-top.png) no-repeat;
+    width:276px;
+    height:79px;
+    margin:0 auto -15px auto;
+}
+
+#footer-wrap{
+    background:url(../images/hospitality/footer-wrap-bg.jpg) no-repeat;
+}
+
+#footer{
+    background:#94b22d !important;
+}
+
+#formstep1next {
+    background:url(../images/hospitality/next.png) no-repeat;
+}
+
+#formstep2submit{
+    background:url(../images/hospitality/submit.png) no-repeat;
+}

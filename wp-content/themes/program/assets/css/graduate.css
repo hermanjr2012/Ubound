@@ -1,0 +1,25 @@
+body{
+    background:url(../images/graduate/body-bg.jpg) repeat-x #FFFFFF !important;
+}
+#top-form{
+    background:url(../images/graduate/form-banner-top.png) no-repeat;
+    width:276px;
+    height:79px;
+    margin:0 auto -15px auto;
+}
+
+#footer-wrap{
+    background:url(../images/graduate/footer-wrap-bg.jpg) no-repeat;
+}
+
+#footer{
+    background:#831618 !important;
+}
+
+#formstep1next {
+    background:url(../images/graduate/next.png) no-repeat;
+}
+
+#formstep2submit{
+    background:url(../images/graduate/submit.png) no-repeat;
+}

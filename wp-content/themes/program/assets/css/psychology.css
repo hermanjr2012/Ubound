@@ -1,0 +1,25 @@
+body{
+    background:url(../images/psychology/body-bg.jpg) repeat-x #FFFFFF !important;
+}
+#top-form{
+    background:url(../images/psychology/form-banner-top.png) no-repeat;
+    width:276px;
+    height:79px;
+    margin:0 auto -15px auto;
+}
+
+#footer-wrap{
+    background:url(../images/psychology/footer-wrap-bg.jpg) no-repeat;
+}
+
+#footer{
+    background:#ba0075 !important;
+}
+
+#formstep1next {
+    background:url(../images/psychology/next.png) no-repeat;
+}
+
+#formstep2submit{
+    background:url(../images/psychology/submit.png) no-repeat;
+}

@@ -1,0 +1,26 @@
+body{
+    background:url(../images/business/body-bg.jpg) repeat-x #FFFFFF !important;
+}
+
+#top-form{
+    background:url(../images/business/form-banner-top.png) no-repeat;
+    width:276px;
+    height:79px;
+    margin:0 auto -15px auto;
+}
+
+#footer-wrap{
+    background:url(../images/business/footer-wrap-bg.jpg) no-repeat;
+}
+
+#footer{
+    background:#46802b !important;
+}
+
+#formstep1next {
+    background:url(../images/business/next.png) no-repeat;
+}
+
+#formstep2submit{
+    background:url(../images/business/submit.png) no-repeat;
+}
